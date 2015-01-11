@@ -8,9 +8,13 @@ This is a small project by me to make a factions system that uses JC MP classes 
 
 A prime example of what makes the system easy to use is in how players are (currently) automatically added to factions:
 
-`Events:Subscribe("ClientModuleLoad", function(args)`
-`   Military:AddMember(args.player)`
-`end)`
+```lua
+
+Events:Subscribe("ClientModuleLoad", function(args)
+ Military:AddMember(args.player)
+end)
+
+```
 
 Notes on usage:
 
