@@ -1,10 +1,7 @@
 print("Loading base faction class...")
 
-<<<<<<< HEAD
 fTable = {}
 
-=======
->>>>>>> f6db7b226f3ac23449e508dc3877ecd46fb0908e
 class("Faction")
 
 function Faction:__init(args)
@@ -144,10 +141,6 @@ Civilians = Faction("Civilians")
 allFactions = {Roaches, Reapers, UlarBoys, Military, Civilians}
 factionColours = {[Roaches] = Color.Cyan, [Reapers] = Color.Red, [UlarBoys] = Color.Yellow, [Military] = Color.Green, [Civilians] = Color.Gray}
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f6db7b226f3ac23449e508dc3877ecd46fb0908e
 print("Sucessfully loaded base faction class!")
 
 function Player:GetFaction()

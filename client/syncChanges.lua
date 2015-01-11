@@ -1,9 +1,5 @@
 print("Loading client-side factions script...")
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f6db7b226f3ac23449e508dc3877ecd46fb0908e
 class("SyncChanges")
 
 function SyncChanges:__init()
