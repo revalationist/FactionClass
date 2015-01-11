@@ -1,0 +1,3 @@
+-- actually, call these from inside the faction classes
+-- as it will be far easier
+-- NOTE: Do not sync client changes, these will have no effect
